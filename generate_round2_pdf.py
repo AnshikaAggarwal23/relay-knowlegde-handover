@@ -253,12 +253,12 @@ def build_round2_pdf(filename):
         [Paragraph("Deliverable", style_table_header), Paragraph("URL / Access Path", style_table_header), Paragraph("Evaluation Notes for Judges", style_table_header)],
         [
             Paragraph("<b>Source-Code Repository</b>", style_table_cell_bold),
-            Paragraph("<code>https://github.com/Anshika-Aggarwal/relay-knowledge-handover</code><br/><i>(Public GitHub Repository)</i>", style_table_cell),
+            Paragraph('<a href="https://github.com/AnshikaAggarwal23/relay-knowlegde-handover" color="#1D4ED8"><u>https://github.com/AnshikaAggarwal23/relay-knowlegde-handover</u></a><br/><i>(Public GitHub Repository)</i>', style_table_cell),
             Paragraph("Complete source code including FastAPI backend, React client, automated tests, and preloaded benchmark dataset.", style_table_cell)
         ],
         [
             Paragraph("<b>Working Project Link (Live Web App)</b>", style_table_cell_bold),
-            Paragraph("<code>https://relay-solostack.vercel.app</code><br/><i>(Live Cloud Deployment)</i>", style_table_cell),
+            Paragraph('<a href="https://anshikaaggarwal23.github.io/relay-knowlegde-handover/" color="#1D4ED8"><u>https://anshikaaggarwal23.github.io/relay-knowlegde-handover/</u></a><br/><i>(Live Cloud Deployment via GitHub Pages)</i>', style_table_cell),
             Paragraph("Zero-install live web client. Features built-in autonomous mode and 1-Click Judge Quick-Start.", style_table_cell)
         ],
         [
